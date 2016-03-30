@@ -9,6 +9,7 @@ html {
 
 div {
   padding: .5rem;
+  margin: .2rem;
   text-align: center;
 }
 
@@ -17,7 +18,7 @@ div {
   background-color: #333;
   color: #fff;
   text-decoration: none;
-  padding: .4em;
+  padding: .4em .75em .4em;
   border-radius: 8px;
   font-size: 1.125rem;
 }
@@ -28,7 +29,6 @@ div {
 
 .btn-ghost {
   background-color: #fff;
-  border: 3px solid #000;
   color: #000;
 }
 
@@ -38,12 +38,10 @@ div {
 
 .btn-small {
   font-size: .875rem;
-  padding: .3em;
 }
 
 .btn-big {
   font-size: 1.5rem;
-  padding: .75em;
 }
 
 .btn:hover {
@@ -60,4 +58,8 @@ div {
 
 .btn-warning:hover {
   background-color: #933;
+}
+
+.btn-ghost {
+  border: solid 3px #000;
 }
